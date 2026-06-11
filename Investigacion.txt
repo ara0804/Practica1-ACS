@@ -1,4 +1,5 @@
 Archivo base para la práctica 1 de Control de Versiones.
+Aporte de Desarrollador A:
 A. GitLab / GitHub
 Funcionalidades principales: Son plataformas web líderes basadas en el sistema de control de versiones distribuido Git. Ofrecen una suite completa para la gestión de repositorios de código fuente en la nube o en servidores locales (on-premise). Sus herramientas principales incluyen la revisión de código por pares a través de Merge Requests (GitLab) o Pull Requests (GitHub), sistemas de seguimiento de problemas (Issues), y potentes motores nativos de Integración Continua y Despliegue Continuo (CI/CD) basados en canalizaciones (pipelines) automatizadas.
 Ventajas competitivas: Representan el estándar de facto en la industria para el desarrollo ágil de software. Su arquitectura distribuida permite que cada desarrollador posea un historial completo del proyecto de forma local, facilitando el trabajo sin conexión y una ramificación (branching) sumamente rápida y ligera. Además, la automatización a nivel de pipelines permite ejecutar pruebas automáticas con cada cambio, aislando errores de manera inmediata.
