@@ -1,12 +1,21 @@
-Archivo base para la práctica 1 de Control de Versiones.
-Aporte Desarrollador B:3. Puppet (Gestión de Configuración Basada en Modelos)
-Funcionalidad Principal: Utiliza un enfoque basado en "agentes" instalados en los servidores que verifican constantemente si el sistema operativo y el software cumplen con el modelo de configuración establecido por el administrador.
+Archivo de investigacion de 3 herramientas de ACS
+1. Azure DevOps
+Funcionalidades principales: Desarrollada por Microsoft, Azure DevOps es una plataforma integral de Gestión del Ciclo de Vida de las Aplicaciones (ALM). A diferencia de herramientas enfocadas únicamente en el código, unifica el trabajo técnico en componentes modulares: Azure Boards (planificación ágil con tableros Kanban/Scrum), Azure Repos (repositorios Git o TFVC), Azure Pipelines (CI/CD multiplataforma), Azure Artifacts (gestión de dependencias y paquetes) y Azure Test Plans (pruebas manuales, exploratorias y sistemáticas).
 
-B. Azure DevOps
-Funcionalidades principales: Desarrollada por Microsoft, es una plataforma integral de Gestión del Ciclo de Vida de las Aplicaciones (ALM). A diferencia de herramientas enfocadas únicamente en el código, Azure DevOps unifica todo el negocio técnico en componentes modulares: Azure Boards (planificación ágil con tableros Kanban/Scrum), Azure Repos (repositorios Git o TFVC), Azure Pipelines (CI/CD multiplataforma), Azure Artifacts (gestión de dependencias y paquetes) y Azure Test Plans (herramientas avanzadas para pruebas manuales, exploratorias y sistemáticas).
-Ventajas competitivas: Su principal virtud es la trazabilidad nativa de extremo a extremo. Es posible rastrear una línea de código específica en producción directamente hasta el caso de prueba que la validó, el commit Git que la implementó, y la tarea o requerimiento original en el tablero ágil solicitado por el cliente. Ofrece además políticas de seguridad corporativas sumamente estrictas y controles de acceso basados en roles.
-Caso de uso ideal: Entornos corporativos robustos o proyectos de software complejos (como plataformas de tecnología inmobiliaria o PropTech que interactúan con múltiples bases de datos relacionales, servicios de backend y APIs de mapas externos como OpenStreetMap). Aquí, la coordinación entre analistas de negocio, desarrolladores y el equipo de control de calidad exige auditorías y métricas precisas de trazabilidad.
-C. Perforce Helix Core (Control de Versiones a Gran Escala)
-Funcionalidad Principal: Software de control de versiones diseñado específicamente para soportar repositorios con archivos binarios extremadamente pesados (como gráficos, modelos 3D y código fuente masivo).
-Ventajas competitivas: A diferencia de Git, que sufre graves problemas de rendimiento al manejar archivos binarios grandes, Perforce los gestiona de manera impecable. Implementa un sistema estricto de bloqueo de archivos (file locking) a nivel de servidor, lo que impide que dos usuarios editen al mismo tiempo archivos no fusionables (como imágenes, modelos 3D o capas de bases de datos espaciales), evitando conflictos destructivos en los datos.
-Caso de uso ideal: Industrias especializadas que manejan recursos o activos multimedia masivos. Es el estándar absoluto en el desarrollo de videojuegos AAA (que integran motores gráficos, texturas de alta resolución y archivos de audio pesados) y en proyectos complejos que procesan Sistemas de Información Geográfica (GIS) mediante herramientas como QGIS, donde las capas vectoriales densas y los modelos de elevación rasterizada constituyen archivos binarios gigantescos imposibles de gestionar eficientemente con Git tradicional.
+Ventajas competitivas: Su principal fortaleza es la trazabilidad nativa de extremo a extremo. Permite rastrear una línea de código en producción hasta el caso de prueba que la validó, el commit Git que la implementó y la tarea o requerimiento original en el tablero ágil. Además, ofrece políticas de seguridad corporativas estrictas y controles de acceso basados en roles.
+
+Caso de uso ideal: Entornos corporativos robustos o proyectos de software complejos, como plataformas PropTech que interactúan con múltiples bases de datos relacionales, servicios backend y APIs externas como OpenStreetMap.
+
+2. Puppet
+Funcionalidades principales: Puppet es una herramienta de gestión de configuración que permite automatizar el aprovisionamiento, la configuración y la gestión operativa de servidores. Funciona bajo el paradigma de Infraestructura como Código (IaC), por lo que los administradores escriben código para describir cómo debe ser la configuración de los sistemas.
+
+Ventajas competitivas: Reduce el trabajo manual, estandariza configuraciones y mejora la consistencia entre servidores. También facilita la automatización de tareas repetitivas y el mantenimiento de entornos a gran escala.
+
+Caso de uso ideal: Infraestructuras con muchos servidores o entornos que requieren configuraciones repetibles, controladas y auditables.
+
+3. Jira
+Funcionalidades principales: Jira es una herramienta de Gestión de Proyectos y Seguimiento de Incidencias (Issue Tracking) desarrollada por Atlassian. Su propósito principal es ayudar a los equipos de software a planificar, rastrear, construir y lanzar productos utilizando metodologías ágiles como Scrum o Kanban.
+
+Ventajas competitivas: Centraliza la gestión de tareas, incidencias y avances del equipo en tableros visuales. También permite priorizar trabajo, asignar responsables y dar seguimiento al progreso de cada actividad.
+
+Caso de uso ideal: Equipos de desarrollo que necesitan organizar su trabajo diario, administrar incidencias y coordinar entregas bajo metodologías ágiles.
